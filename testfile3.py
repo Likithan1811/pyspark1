@@ -30,6 +30,5 @@ df = spark.read.jdbc(
     numPartitions=num_partitions
 )
 
-# Testing
 # Show the data
 df.show(1000)
